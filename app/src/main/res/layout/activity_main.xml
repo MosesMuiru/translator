@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE600"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity"
+
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+
+
+        <TextView
+            android:id="@+id/family"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#DCDCDC"
+            android:text="Family"
+            android:gravity="center
+
+"
+
+
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="8dp"
+
+
+            />
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:background="@color/white"
+
+            android:text="Number"
+
+
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold|italic"
+
+         />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+
+
+
+        <TextView
+            android:id="@+id/colors"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CDB4DB"
+            android:text="Colors"
+            android:gravity="center"
+
+
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="8dp"
+
+
+
+            />
+        <TextView
+            android:id="@+id/phrases"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/black"
+
+            android:text="Phrases"
+
+            android:gravity="center"
+
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold|italic"
+           />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
